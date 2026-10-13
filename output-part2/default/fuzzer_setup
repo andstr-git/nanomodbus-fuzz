@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_MUTATOR_LIBRARY=./mbap_mutator.so
+AFL_CUSTOM_INFO_PROGRAM=./harness
+AFL_CUSTOM_INFO_PROGRAM_ARGV=
+AFL_CUSTOM_INFO_OUT=/home/andrey/nanomodbus-fuzz/output-part2/default
+# command line:
+'afl-fuzz' '-i' 'seeds' '-o' '/home/andrey/nanomodbus-fuzz/output-part2' '--' './harness'

@@ -1,0 +1,16 @@
+harness
+harness_asan
+harness_cov
+*.so
+
+*.o
+*.gcda
+*.gcno
+*.gcov
+*~
+*.log
+*.tmp
+
+output-*/default/fastresume.bin
+output-*/default/fuzz_bitmap
+output-*/default/target_hash
